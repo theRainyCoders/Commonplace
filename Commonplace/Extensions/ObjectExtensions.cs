@@ -1,9 +1,9 @@
-﻿using System.Diagnostics;
-using System.Reflection;
-
-namespace TheRainyCoders.Commonplace
+﻿namespace TheRainyCoders.Commonplace.Extensions
 {
-    public static class TypeExentsions
+    using System.Diagnostics;
+    using System.Reflection;
+
+    public static class ObjectExtensions
     {
         public static string GetAssemblyFileVersion(this object instance)
         {
