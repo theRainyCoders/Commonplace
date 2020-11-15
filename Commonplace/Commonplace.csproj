@@ -2,9 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    
     <AssemblyName>TheRainyCoders.Commonplace</AssemblyName>
     <RootNamespace>TheRainyCoders.Commonplace</RootNamespace>
+    
     <AssemblyVersion>0.0.2.0</AssemblyVersion>
+		<AssemblyFileVersion>0.0.2.0</AssemblyFileVersion>
+
   </PropertyGroup>
 	
 	<PropertyGroup>
@@ -21,6 +25,7 @@
 		<Copyright>Copyright 2020 TheRainyCoders</Copyright>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <Version>0.0.2</Version>
 	</PropertyGroup>
 	
 	<ItemGroup>
