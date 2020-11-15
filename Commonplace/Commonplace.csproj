@@ -4,10 +4,30 @@
     <TargetFramework>net5.0</TargetFramework>
     <AssemblyName>TheRainyCoders.Commonplace</AssemblyName>
     <RootNamespace>TheRainyCoders.Commonplace</RootNamespace>
-    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>0.0.2.0</AssemblyVersion>
   </PropertyGroup>
 	
 	<PropertyGroup>
 		<Nullable>enable</Nullable>
+		<PackageProjectUrl></PackageProjectUrl>
+		<RepositoryUrl>https://github.com/theRainyCoders/Commonplace.git</RepositoryUrl>
+		<PackageId>TheRainyCoders.Commonplace</PackageId>
+		<Authors>TheRainyCoders</Authors>
+		<Company>TheRainyCoders</Company>
+		<Description>Contains a hodgepodge of classes and functions for developing csharp applications.</Description>
+		<PackageTags>dotnet c# csharp library tooling hodgepodge</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryType>git</RepositoryType>
+		<Copyright>Copyright 2020 TheRainyCoders</Copyright>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
 	</PropertyGroup>
+	
+	<ItemGroup>
+	  <PackageReference Include="TheRainyCoders.CSharp.Development.Settings" Version="1.0.1" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="../stylecop.json" />
+  </ItemGroup>
 </Project>

@@ -7,6 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commonplace", "Commonplace\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commonplace.Tests", "Commonplace.Tests\Commonplace.Tests.csproj", "{88C8C30E-4781-4E22-AA24-0DE2D5E6CA2C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4A6C8777-6161-49FF-951C-CAA827D95FA1}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Commonplace.sln.DotSettings = Commonplace.sln.DotSettings
+		CompanySettings.DotSettings = CompanySettings.DotSettings
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2C0AE0C5-1675-42D5-8067-FF3B411388B3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.config = .nuget\NuGet.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
