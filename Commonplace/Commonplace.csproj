@@ -2,20 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    
+
+    <PackageId>TheRainyCoders.Commonplace</PackageId>
+
     <AssemblyName>TheRainyCoders.Commonplace</AssemblyName>
     <RootNamespace>TheRainyCoders.Commonplace</RootNamespace>
     
     <AssemblyVersion>0.0.2.0</AssemblyVersion>
 		<AssemblyFileVersion>0.0.2.0</AssemblyFileVersion>
+    <Version>0.0.3</Version>
 
-  </PropertyGroup>
-	
-	<PropertyGroup>
-		<Nullable>enable</Nullable>
+		
 		<PackageProjectUrl></PackageProjectUrl>
 		<RepositoryUrl>https://github.com/theRainyCoders/Commonplace.git</RepositoryUrl>
-		<PackageId>TheRainyCoders.Commonplace</PackageId>
+
 		<Authors>TheRainyCoders</Authors>
 		<Company>TheRainyCoders</Company>
 		<Description>Contains a hodgepodge of classes and functions for developing csharp applications.</Description>
@@ -23,14 +23,17 @@
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<RepositoryType>git</RepositoryType>
 		<Copyright>Copyright 2020 TheRainyCoders</Copyright>
-		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
-    <Version>0.0.2</Version>
-	</PropertyGroup>
+
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+  </PropertyGroup>
 	
 	<ItemGroup>
-	  <PackageReference Include="TheRainyCoders.CSharp.Development.Settings" Version="1.0.1" />
-	</ItemGroup>
+	  <PackageReference Include="TheRainyCoders.CSharp.Development.Settings" Version="1.0.1">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
 
   <ItemGroup>
     <AdditionalFiles Include="../stylecop.json" />
